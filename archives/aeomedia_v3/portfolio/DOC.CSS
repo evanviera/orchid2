@@ -1,0 +1,13 @@
+.document {  font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #000000; border: thin #FFFFFF none; font-weight: bold; text-transform: none; font-variant: normal; letter-spacing: 10px; padding-left: 15px}
+.tables {  border: solid; border-width: 4px 0px 0px 4px; border-color: #232323 #CCCCCC #CCCCCC #232323}
+.bed {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999999; font-variant: small-caps; font-weight: normal}
+.tables2 {  border: #666666 dotted; border-width: 1px 0px 0px 1px}
+.tables3 {  border: #666666 dotted; border-width: 1px 0px 0px; text-align: center; vertical-align: middle}
+.table4 {  border-color: black black black #666666; border-style: dotted; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 1px}
+.pad {  padding-left: 15px; padding-top: 5px}
+.smallfont {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-variant: normal; color: #999999}
+a:hover {  color: #FFFFFF}
+a:link {  }
+a:link {  color: #999999; text-decoration: underline}
+a:visited {  color: #666666}
+a:active {  color: #666666}

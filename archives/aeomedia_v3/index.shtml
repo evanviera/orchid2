@@ -1,0 +1,44 @@
+
+
+<html>
+<Title> Ready to go! </title>
+<body>
+<h3> This site needs a home page</h3>
+<h3> Please add a index.html page to this site to remove this page from showing.</h3>
+<h3>Find out how to get a page of your own started with <a href="http://www.aaahosting.net">AAA Web Hosting</a>.</h3>
+<br><br><p>Here is what is install on your site:<br>
+<a href="/cgi-bin/guestbook/guestbook.cgi">GuestBook</a><br>
+<a href="/cgi-bin/yabb/YaBB.pl">UBB</a><br>
+<a href="/cgi-bin/links/cl-admin.cgi">Links Manager</a><br>
+<a href="/cgi-bin/links/cougalinks.cgi">FFA Links</a><br>
+<a href="/cgi-bin/formmail.pl">Formmail</a><br>
+<a href="/cgi-bin/search.pl">Site Search</a><br>
+<a href="/cgi-bin/calendar/calendar.pl">Calendar</a><br>
+<a href="/cgi-bin/calendar/calendar_admin.pl">Calendar Manager</a><br>
+<a href="/cgi-bin/anyform/ennyfrms.cgi">EnnyForms</a><br>
+<a href="/wwwstat/">Stats</a><br>
+<br><br>
+<table><tr><td nowrap>
+<form action="/cgi-bin/protected/mail.pl" METHOD=post>
+<font color="#ff0000" face=arial><B><I>Check Your Email:</I></B></font><br>
+<input type=hidden name=aM value=login>
+<input name=dS size=32 value="yourlogon@yourdomain.com" ><br>
+Password:<input type=password name=cF size=12 maxlength=10>
+<input type=submit name=Send value=Login></form></td></tr></table>
+<br><br>
+<P>
+Put something similar to the following in any of your HTML files:
+<PRE>
+  This page has been accessed
+   &lt;IMG SRC="/cgi-bin/counter/counter.pl?count.txt"align=absmiddle&gt; times.
+</PRE>
+<br>
+This page has been accessed <IMG SRC="/cgi-bin/counter/counter.pl?count.txt"align=absmiddle> times.
+<br><br>
+</body>
+</html>
+
+
+
+
+
